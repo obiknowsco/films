@@ -200,12 +200,12 @@ export default {
   }
 
   .tags li{
-    color: #FFF;
+    color: #fafafa;
     padding: 5px;
     cursor: pointer;
     display: inline;
     border-radius: 3px;
-    background-color: #5bc498;
+    background-color: #9dbaca;
     transition: background-color .3s;
   }
 

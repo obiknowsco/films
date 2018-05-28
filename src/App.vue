@@ -8,10 +8,10 @@
           </router-link>
         </h1>
         <div class="space single"></div>
-        <p>Video resources that will help you to improve your Vue skills</p>
+        <p>stay healthy, level up, learn something</p>
         <div class="space"></div>
         <div class="space"></div>
-        <p class="note">
+        <p style="display:none" class="note">
           By <a target="_blank" href="http://firmino.engineer">Firmino Changani</a>
           &nbsp;-&nbsp;
           Want to improve?
@@ -24,12 +24,20 @@
     <div class="wrap root view">
       <router-view></router-view>
     </div>
+    <!-- footer -->
+    <Footer ></Footer>
   </div>
+
 </template>
 
 <script>
+import Footer from './components/Footer';
+
 export default {
   name: 'App',
+  components: {
+    Footer,
+  },
   data() {
     return {};
   },
@@ -83,13 +91,14 @@ export default {
     position: absolute;
     text-align: center;
     align-items: center;
-    background-color: #333;
+    background-color: #151516;
     transition: transform .3s;
     transform: translateY(-300px);
   }
 
   .spot{
-    color: #FFF;
+    /* color: #FFF; */
+    color: #a15e24;
   }
 
   .spot h1 a{
@@ -97,7 +106,7 @@ export default {
   }
 
   .spot a{
-    color: #5bc498;
+    color: #f7b238;
     text-decoration: none;
   }
 

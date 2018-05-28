@@ -3,7 +3,6 @@
     <div class="space"></div>
     <div class="space"></div>
     <!-- Tags -->
-    <div class="space"></div>
     <!-- Videos -->
     <div class="listing" v-show="!loading">
       <article class="video" v-for="video in videos" :key="video.snippet.id">
