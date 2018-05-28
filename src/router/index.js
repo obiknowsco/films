@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Feed from '../components/Feed';
 import Player from '../components/Player';
+import About from '../components/About';
 
 Vue.use(Router);
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/:id',
       name: 'Player',
       component: Player,
+    },
+    {
+      path: '/about',
+      name: 'About',
+      component: About,
     },
   ],
 });
