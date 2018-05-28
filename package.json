@@ -1,8 +1,8 @@
 {
-  "name": "vuetube",
-  "version": "0.0.2",
-  "description": " Video resources that will help you to improve your Vue skills",
-  "author": "Firmino Changani <flowck96@gmail.com>",
+  "name": "obiknowsco-films",
+  "version": "0.1",
+  "description": "films that'll help you stay healthy and level up",
+  "author": "Obi Knows <obiknows88@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

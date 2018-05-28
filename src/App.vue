@@ -4,7 +4,7 @@
       <div class="wrap">
         <h1>
           <router-link to="/" title="vuetube">
-            vuetube ▶
+            obiknows.co <span>/</span> films 🎞
           </router-link>
         </h1>
         <div class="space single"></div>

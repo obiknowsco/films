@@ -1,6 +1,6 @@
 # vuetube
 
-A SPA that fetch Video resources from Youtube using Youtube Data API 3 and Vuejs for the rendering part.
+A SPA that fetches videsos  from Youtube using Youtube Data API 3 and Vuejs for the rendering part.
 
 ## Build Setup
 
@@ -39,3 +39,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 [ ] - Test components
 
 [ ] - Animations
+
+[ ] - add in Vimeo
