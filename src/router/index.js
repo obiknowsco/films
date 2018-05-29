@@ -24,5 +24,15 @@ export default new Router({
       name: 'About',
       component: About,
     },
+    {
+      path: '/terms',
+      name: 'Terms',
+      component: About,
+    },
+    {
+      path: '/privacy',
+      name: 'Privacy',
+      component: About,
+    },
   ],
 });

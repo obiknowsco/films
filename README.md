@@ -36,6 +36,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 [x] - Get informations of a single video
 
+[ ] - Make a Terms of Use
+
+[ ] - Add in a Privacy Policy
+
 [ ] - Test components
 
 [ ] - Animations

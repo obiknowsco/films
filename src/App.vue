@@ -4,11 +4,11 @@
       <div class="wrap">
         <h1>
           <router-link class="" to="/" title="vuetube">
-            <span class="hover-dark-red">obiknows.co <span>/</span> films 🎞</span>
+            obiknows.co <span>/</span> films 🎞
           </router-link>
         </h1>
         <div class="space single"></div>
-        <p>stay healthy, level up, learn something</p>
+        <p>"stay healthy, level up, learn something"</p>
         <div class="space"></div>
         <div class="space"></div>
         <p style="display:none" class="note">
@@ -31,6 +31,7 @@
 </template>
 
 <script>
+// Components
 import Footer from './components/Footer';
 
 export default {
