@@ -3,16 +3,16 @@
     <div class="space"></div>
     <div class="space"></div>
     <!-- Tags -->
-    <ul class="tags">
-      <li v-on:click="setTag">vuex</li>
-      <li v-on:click="setTag">tutorial</li>
-      <li v-on:click="setTag">talks</li>
-      <li v-on:click="setTag">conf</li>
-      <li v-on:click="setTag">axios</li>
-      <li v-on:click="setTag">testing</li>
-      <li v-on:click="setTag">vue-router</li>
-      <li v-on:click="setTag">vue-material</li>
-      <li v-on:click="setTag">nuxt</li>
+    <ul class="tc tags mb3">
+      <li v-on:click="setTag">health</li>
+      <li v-on:click="setTag">food</li>
+      <li v-on:click="setTag">water</li>
+      <li v-on:click="setTag">sebi</li>
+      <li v-on:click="setTag">herbs</li>
+      <li v-on:click="setTag">finance</li>
+      <li v-on:click="setTag">code</li>
+      <li v-on:click="setTag">history</li>
+      <!-- <li v-on:click="setTag">nuxt</li> -->
     </ul>
     <div class="space"></div>
     <!-- Videos -->
