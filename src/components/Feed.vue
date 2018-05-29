@@ -86,9 +86,13 @@ export default {
   methods: {
     getVideos() {
       // Config options
+      // const MYKEY = 'AIzaSyCDZWMXOaUh4PBFfJABK2q-d2crb96JTGg';
+      const PLAYLISTID = 'PLzM_sP6ghXRvs-gbeCkOPF12vBLBQ9B8D';
       const KEY = 'AIzaSyBlSc4Zavlls-c_K2cESn1jyuiUSckHgwM';
-      const OPTS = `part=snippet&type=video&q=vuejs${this.genTags}&maxResults=50`;
-      const BASE_URL = `https://www.googleapis.com/youtube/v3/search?&${OPTS}&key=${KEY}`;
+      // const OPTS = `part=snippet&type=video&q=${this.genTags}&maxResults=50`;
+      // const BASE_URL = `https://www.googleapis.com/youtube/v3/search?&${OPTS}&key=${KEY}`;
+      const OPTS = `part=snippet,contentDetails&playlistId=${PLAYLISTID}&maxResults=50`;
+      const BASE_URL = `https://www.googleapis.com/youtube/v3/playlistItems?&${OPTS}&key=${KEY}`;
 
       // Get request to youtube API
       fetch(BASE_URL, { method: 'GET' })
