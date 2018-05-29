@@ -19,7 +19,7 @@
     <div class="listing" v-show="!loading">
       <article class="video" v-for="video in videos" :key="video.snippet.id">
         <router-link
-          :to="{ name: 'Player', params: { id: video.id.videoId }}"
+          :to="{ name: 'Player', params: { id: video.contentDetails.videoId }}"
           :title="video.snippet.title"
         >
           <div class="thumb"
@@ -100,6 +100,7 @@ export default {
         .then((json) => {
           this.videos = json.items;
           this.loading = false;
+          console.log(json);
         })
         .catch((err) => { this.err = err; });
     },
