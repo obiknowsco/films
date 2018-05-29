@@ -30,7 +30,7 @@
         <div class="meta">
           <div class="title">
             <router-link
-              :to="{ name: 'Player', params: { id: video.id.videoId }}"
+              :to="{ name: 'Player', params: { id: video.contentDetails.videoId }}"
             >
               <b>{{ video.snippet.title }}</b>
             </router-link>
