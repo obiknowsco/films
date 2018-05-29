@@ -3,7 +3,7 @@
     <div class="space"></div>
     <div class="space"></div>
     <!-- Tags -->
-    <ul class="tc tags mb3">
+    <ul class="dn tc tags mb3">
       <li v-on:click="setTag">health</li>
       <li v-on:click="setTag">food</li>
       <li v-on:click="setTag">water</li>
