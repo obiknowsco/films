@@ -3,7 +3,7 @@
     <div class="space"></div>
     <div class="space"></div>
     <!-- Tags -->
-    <ul class="dn tc tags mb3">
+    <!-- <ul class="dn tc tags mb3">
       <li v-on:click="setTag">health</li>
       <li v-on:click="setTag">food</li>
       <li v-on:click="setTag">water</li>
@@ -12,8 +12,7 @@
       <li v-on:click="setTag">finance</li>
       <li v-on:click="setTag">code</li>
       <li v-on:click="setTag">history</li>
-      <!-- <li v-on:click="setTag">nuxt</li> -->
-    </ul>
+    </ul> -->
     <div class="space"></div>
     <!-- Videos -->
     <div class="listing" v-show="!loading">
