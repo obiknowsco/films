@@ -3,8 +3,8 @@
     <div class="spot">
       <div class="wrap">
         <h1>
-          <router-link to="/" title="vuetube">
-            obiknows.co <span>/</span> films 🎞
+          <router-link class="" to="/" title="vuetube">
+            <span class="hover-dark-red">obiknows.co <span>/</span> films 🎞</span>
           </router-link>
         </h1>
         <div class="space single"></div>
